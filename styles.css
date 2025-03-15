@@ -1,4 +1,4 @@
-/* General styling for the page */
+/* General styling for the page
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -40,4 +40,138 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+} */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Container for better layout control */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Section Styling */
+#about {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills Section Styling */
+#skills {
+    background: #e9e9e9;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#skills ul li {
+    font-size: 1.2em;
+    padding: 8px 0;
+}
+
+/* Projects Section Styling */
+#projects {
+    padding: 50px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2em;
+}
+
+/* Contact Section Styling */
+#contact {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer Styling */
+footer {
+    background: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
 }
